@@ -1,0 +1,49 @@
+@use 'colors' as *;
+@use 'typography' as *;
+@use 'sizes' as *;
+
+// body
+$body-font-family: $ff-primary;
+$body-font-size: var(--fs-400);
+$body-font-line-height: var(--lh-400);
+$body-font-weight: $fw-400;
+$body-color: $clr-neutral-900;
+$body-background-color: $clr-neutral-100;
+
+$link-color: $clr-neutral-900;
+$link-text-decoration: underline;
+
+// Layout
+$grid-gap: $size-5;
+$flex-gap: $size-4;
+
+$section-block-padding: clamp(3rem, 8vh, 7rem);
+
+$modal-padding: 3.125rem;
+
+$container-inline-padding: 1rem;
+$container-max-width: 85.75rem;
+$container-max-width-wide: 100rem;
+
+// ----- BUTTON -----
+$button-text-transform: none;
+$button-text-decoration: none;
+$button-border-size: 2px;
+
+$button-color-disabled: $clr-neutral-600;
+// PRIMARY
+$button-primary-color: $clr-neutral-100;
+$button-primary-icon-color: $clr-neutral-100;
+$button-primary-background-color: $clr-accent-400;
+$button-primary-background-color-hover: $clr-accent-500;
+
+$button-primary-icon-color-disabled: $clr-neutral-500;
+$button-primary-background-color-disabled: $clr-neutral-200;
+
+// Confirm
+$button-confirm-background-color: $clr-success-400;
+$button-confirm-background-color-hover: $clr-success-500;
+
+// Cancel
+$button-cancel-background-color: $clr-danger-400;
+$button-cancel-background-color-hover: $clr-danger-500;

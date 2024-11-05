@@ -1,0 +1,118 @@
+// Global color tokens
+
+$_clr-black-900: #2f2f2f;
+$_clr-black-600: #677582;
+$_clr-black-500: #7c8b8f;
+$_clr-black-200: #d7dde8;
+$_clr-white: #fff;
+
+$_clr-blue-500: #018acc;
+$_clr-blue-400: #079ee6;
+$_clr-blue-100: #e5f5fc;
+
+$_clr-red-500: #c14043;
+$_clr-red-400: #ff5a5d;
+$_clr-red-100: #fff0f0;
+
+$_clr-green-500: #2dae80;
+$_clr-green-400: #3acd98;
+$_clr-green-100: #e9f9f3;
+
+$_clr-yellow-400: #ffb800;
+$_clr-yellow-100: #fffbee;
+
+$_clr-purple-400: #8657e8;
+$_clr-purple-100: #f1eefc;
+
+$light: (
+  'neutral': (
+    900: $_clr-black-900,
+    600: $_clr-black-600,
+    500: $_clr-black-500,
+    200: $_clr-black-200,
+    100: $_clr-white,
+  ),
+  'accent': (
+    500: $_clr-blue-500,
+    400: $_clr-blue-400,
+    100: $_clr-blue-100,
+  ),
+  'danger': (
+    500: $_clr-red-500,
+    400: $_clr-red-400,
+    100: $_clr-red-100,
+  ),
+  'success': (
+    500: $_clr-green-500,
+    400: $_clr-green-400,
+    100: $_clr-green-100,
+  ),
+  'warning': (
+    400: $_clr-yellow-400,
+    100: $_clr-yellow-100,
+  ),
+  'decor': (
+    400: $_clr-purple-400,
+    100: $_clr-purple-100,
+  ),
+);
+
+$dark: (
+  'neutral': (
+    900: $_clr-white,
+    600: $_clr-black-200,
+    500: $_clr-black-500,
+    200: $_clr-black-600,
+    100: $_clr-black-900,
+  ),
+  'accent': (
+    500: $_clr-blue-500,
+    400: $_clr-blue-400,
+    100: $_clr-black-600,
+  ),
+  'danger': (
+    500: $_clr-red-500,
+    400: $_clr-red-400,
+    100: $_clr-red-100,
+  ),
+  'success': (
+    500: $_clr-green-500,
+    400: $_clr-green-400,
+    100: $_clr-green-100,
+  ),
+  'warning': (
+    400: $_clr-yellow-400,
+    100: $_clr-yellow-100,
+  ),
+  'decor': (
+    400: $_clr-purple-400,
+    100: $_clr-purple-100,
+  ),
+);
+
+// Context color tokens
+
+$clr-neutral-900: var(--clr-neutral-900);
+$clr-neutral-600: var(--clr-neutral-600);
+$clr-neutral-500: var(--clr-neutral-500);
+$clr-neutral-200: var(--clr-neutral-200);
+$clr-neutral-100: var(--clr-neutral-100);
+
+$clr-accent-500: var(--clr-accent-500);
+$clr-accent-400: var(--clr-accent-400);
+$clr-accent-100: var(--clr-accent-100);
+
+$clr-danger-500: var(--clr-danger-500);
+$clr-danger-400: var(--clr-danger-400);
+$clr-danger-100: var(--clr-danger-100);
+
+$clr-success-500: var(--clr-success-500);
+$clr-success-400: var(--clr-success-400);
+$clr-success-100: var(--clr-success-100);
+
+$clr-warning-400: var(--clr-warning-400);
+$clr-warning-400: var(--clr-warning-400);
+$clr-warning-100: var(--clr-warning-100);
+
+$clr-decor-100: var(--clr-decor-100);
+$clr-decor-100: var(--clr-decor-100);
